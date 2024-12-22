@@ -2,15 +2,12 @@
 import "../global.css";
 ---
 
-<head>
-  <link
-    rel="preload"
-    href="/fonts/GochiHand-Regular.ttf"
-    as="font"
-    type="font/truetype"
-    crossorigin
-  />
-</head>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet"
+/>
 
 <div id="container">
   <main>
@@ -53,7 +50,8 @@ import "../global.css";
           allow users to play live.
         </li>
         <li>
-          <a href="https://stupid-typetest.vercel.app/">stupid-typetest</a>
+          <a href="https://stupid-typetest.vercel.app/">stupid-typetest</a> - A typing
+          test to increase your typing speed.
         </li>
       </ol>
 
@@ -61,7 +59,7 @@ import "../global.css";
         I also have a <a href="https://www.youtube.com/@stupidgeek"
           >YouTube Channel</a
         > named <span>Stupidgeek</span>, with about <span>10,000</span> subscribers
-        and <span>600,000+</span> views.
+        and over <span>600,000</span> views.
       </p>
       <p id="intro">
         The channel revolves around my passion for recreational programming. My
@@ -148,7 +146,8 @@ import "../global.css";
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: "Poppins", Times, serif;
+    /* font-family: "Poppins", Times, serif; */
+    font-family: "Poppins", 'Times New Roman', Times, serif;
     font-display: swap;
     max-width: 50%;
   }
@@ -186,28 +185,16 @@ import "../global.css";
   }
 
   span {
-    color: blue;
-  }
-
-  pre {
-    font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
-      Consolas, "DejaVu Sans Mono", monospace;
-    font-weight: normal;
-    background: linear-gradient(14deg, #d83333 0%, #f041ff 100%);
-    background-clip: text;
-    margin: 0;
+    /* color: blue; */
+    color:brown;
   }
 
   h2 {
-    font-family: "GochiHand";
-    /* margin: 0 0 1em; */
+    font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding: 0;
     font-weight: normal;
-    /* color: #551b8b; */
-    color:rgb(0, 221, 96);
-    /* color: rgb(137, 220, 13); */
-    /* color: rgb(153, 255, 0); */
+    color: rgb(98, 98, 98);
     box-shadow: 10px, 10px, black;
     font-size: 30px;
     line-height: 1;
