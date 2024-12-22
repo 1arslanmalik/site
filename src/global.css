@@ -1,4 +1,9 @@
 @font-face {
     font-family: 'GochiHand';
     src: url('/fonts/GochiHand-Regular.ttf') format('truetype');
+    font-display: fallback;
+}
+
+h2 {
+    font-family: 'GochiHand';
 }

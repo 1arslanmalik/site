@@ -1,6 +1,15 @@
 ---
 import "../global.css";
 ---
+<head>
+  <link
+  rel="preload"
+  href="/fonts/GochiHand-Regular.ttf"
+  as="font"
+  type="font/truetype"
+  crossorigin
+  />
+</head>
 
 <div id="container">
   <main>
@@ -27,22 +36,25 @@ import "../global.css";
       </p>
       <ol>
         <li>
-          <a href="#">save-deez</a> - A Discord-based wrapped website, which relies
+          <a href="https://dont-save-deez-notes.vercel.app/">save-deez-notes</a> - A Discord-based wrapped website, which relies
           on a bot to store and retrieve my notes in a Discord server.
         </li>
         <li>
-          <a href="#">laziness-script</a> - A script that uses a machine learning
+          <a href="https://github.com/1stupidgeek/Laziness-Script">laziness-script</a> - A script that uses a machine learning
           model to scroll short-form content without needing to scroll or touch your
           device, by just performing a nod.
         </li>
         <li>
-          <a href="#">Realtime Tic-Tac-Toe</a> - A multiplayer, real-time Tic-Tac-Toe
+          <a href="https://tic-tic-tic.vercel.app/">Realtime Tic-Tac-Toe</a> - A multiplayer, real-time Tic-Tac-Toe
           game that implements web sockets to allow users to play live.
+        </li>
+        <li>
+          <a href="https://stupid-typetest.vercel.app/">stupid-typetest</a>
         </li>
       </ol>
 
       <p id="intro">
-        I also have a <a href="#">YouTube Channel</a> named <span
+        I also have a <a href="https://www.youtube.com/@stupidgeek">YouTube Channel</a> named <span
           >Stupidgeek</span
         >, with about <span>10,000</span> subscribers and <span>600,000+</span> views.
       </p>
@@ -55,9 +67,9 @@ import "../global.css";
       </p>
       <p id="intro">
         Moreover, I’ve had some freelancing experience to pay my bills. I've
-        created websites for local businesses, such as one for <a href="#"
+        created websites for local businesses, such as one for <a href="https://www.drwaseemandrabi.com"
           >Dr. Waseem</a
-        > and a local startup, <a href="#">Fifer Technologies</a>.
+        > and a local startup, <a href="https://www.fifertechnologies.com">Fifer Technologies</a>.
       </p>
       <p id="intro">
         I’m always looking for opportunities to grow, improve my skills, and
@@ -129,6 +141,7 @@ import "../global.css";
     flex-direction: column;
     justify-content: center;
     font-family: "Poppins", Times, serif;
+    font-display: swap;
     max-width: 50%;
   }
 
