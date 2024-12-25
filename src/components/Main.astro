@@ -1,5 +1,14 @@
 ---
 import "../global.css";
+const timeStamp = Date.now()
+
+const dateOptions: object = {
+	year: "numeric",
+	month: "long",
+	day: "numeric",
+};
+
+const dateString = new Date(timeStamp).toLocaleDateString("en-US", dateOptions);
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,35 +30,59 @@ import "../global.css";
 
         <section id="socials">
           <div id="social">
-            <a target="_blank" href="https://www.youtube.com/@stupidgeek" style="display: flex; align-items: center; gap: 5px; justify-content: center;">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/@stupidgeek"
+              style="display: flex; align-items: center; gap: 5px; justify-content: center;"
+            >
               <img src="/youtube-color.svg" width="30" height="30" />
               <h3>@stupidgeek</h3>
             </a>
           </div>
           <div id="social">
             <img src="/github-color.svg" width="30" height="30" />
-            <a target="_blank" href="https://github.com/1stupidgeek" style="display: flex; align-items: center; gap: 5px; justify-content: center;">
+            <a
+              target="_blank"
+              href="https://github.com/1stupidgeek"
+              style="display: flex; align-items: center; gap: 5px; justify-content: center;"
+            >
               <h3>@1stupidgeek</h3>
             </a>
             <h3>/</h3>
-            <a target="_blank" href="https://github.com/1arslanmalik" style="display: flex; align-items: center; gap: 5px; justify-content: center;">
+            <a
+              target="_blank"
+              href="https://github.com/1arslanmalik"
+              style="display: flex; align-items: center; gap: 5px; justify-content: center;"
+            >
               <h3>@1arslanmalik</h3>
             </a>
           </div>
           <div id="social">
-            <a target="_blank" href="mailto:arslanmudasir111@gmail.com" style="display: flex; align-items: center; gap: 5px; justify-content: center;">
+            <a
+              target="_blank"
+              href="mailto:arslanmudasir111@gmail.com"
+              style="display: flex; align-items: center; gap: 5px; justify-content: center;"
+            >
               <img src="/gmail-color.svg" width="30" height="30" />
               <h3>arslanmudasir111@gmail.com</h3>
             </a>
           </div>
           <div id="social">
-            <a target="_blank" href="https://x.com/1stupidgeek" style="display: flex; align-items: center; gap: 5px; justify-content: center;">
+            <a
+              target="_blank"
+              href="https://x.com/1stupidgeek"
+              style="display: flex; align-items: center; gap: 5px; justify-content: center;"
+            >
               <img src="/x-color.svg" width="30" height="30" />
               <h3>@1stupidgeek</h3>
             </a>
           </div>
           <div id="social">
-            <a target="_blank" href="https://www.instagram.com/arslan.mudasir/" style="display: flex; align-items: center; gap: 5px; justify-content: center;">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/arslan.mudasir/"
+              style="display: flex; align-items: center; gap: 5px; justify-content: center;"
+            >
               <img src="/instagram-color.svg" width="30" height="30" />
               <h3>@arslan.mudasir</h3>
             </a>
@@ -61,57 +94,82 @@ import "../global.css";
 
       <p id="intro">
         I'm a <b>computer systems and programming enthusiast.</b> Following my passion,
-        I've been learning about computer systems and coding for a while now. I
-        mostly work with computers because they keep me excited every time I use
-        them.
+        I've been learning about computer systems and coding for a while now. I mostly
+        work with computers because they keep me excited every time I use them.
       </p>
 
       <p id="intro">
-        As a <b><a target="_blank" href="https://en.wikipedia.org/wiki/Recreation" style="color: #4b5563">recreationalist</a></b>, some of my popular work includes my recreational
-        projects, to name a few:
+        As a <b
+          ><a
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/Recreation"
+            style="color: #4b5563">recreationalist</a
+          ></b
+        >, some of my popular work includes my recreational projects, to name a
+        few:
       </p>
       <ol>
         <li>
-          <a target="_blank" href="https://dont-save-deez-notes.vercel.app/"><b>save-deez-notes</b></a>
+          <a target="_blank" href="https://dont-save-deez-notes.vercel.app/"
+            ><b>save-deez-notes</b></a
+          >
           - A Discord-based wrapped website, which relies on a bot to store and retrieve
           my notes in a Discord server.
         </li>
         <li>
-          <a target="_blank" href="https://github.com/1stupidgeek/Laziness-Script"><b>laziness-script</b></a>
+          <a
+            target="_blank"
+            href="https://github.com/1stupidgeek/Laziness-Script"
+            ><b>laziness-script</b></a
+          >
           - A script that uses a machine learning model to scroll short-form content
           without needing to scroll or touch your device, by just performing a nod.
         </li>
         <li>
-          <a target="_blank" href="https://tic-tic-tic.vercel.app/"><b>Realtime Tic-Tac-Toe</b></a> - A
-          multiplayer, real-time Tic-Tac-Toe game that implements web sockets to
-          allow users to play live.
+          <a target="_blank" href="https://tic-tic-tic.vercel.app/"
+            ><b>Realtime Tic-Tac-Toe</b></a
+          > - A multiplayer, real-time Tic-Tac-Toe game that implements web sockets
+          to allow users to play live.
         </li>
         <li>
-          <a target="_blank" href="https://stupid-typetest.vercel.app/"><b>stupid-typetest</b></a> - A typing
-          test to increase your typing speed.
+          <a target="_blank" href="https://stupid-typetest.vercel.app/"
+            ><b>stupid-typetest</b></a
+          > - A typing test to increase your typing speed.
         </li>
       </ol>
 
       <p id="intro">
-        I also have a <a target="_blank" href="https://www.youtube.com/@stupidgeek">YouTube Channel</a>
-        named <b>Stupidgeek</b>, with about <b>10,000</b> subscribers
-        and over <b>600,000</b> views.
+        I also have a <a
+          target="_blank"
+          href="https://www.youtube.com/@stupidgeek">YouTube Channel</a
+        >
+        named <b>Stupidgeek</b>, with about <b id="subs">10,000</b> subscribers and
+        over <b id="views">600,000</b> views. <b>
+          (as of today {dateString})
+          </b>
       </p>
       <p id="intro">
-        My channel revolves around my <b>passion for recreational programming.</b> My
-        videos mostly cover my projects, and people really seem to like them.
-        I’ve built an active community of people who appreciate and respect my
-        work. My Discord server has about <b>1,000 members</b>, all of whom joined
+        My channel revolves around my <b
+          >passion for recreational programming.</b
+        > My videos mostly cover my projects, and people really seem to like them.
+        I’ve built an active community of people who appreciate and respect my work.
+        My Discord server has about <b>1,000 members</b>, all of whom joined
         through my content.
       </p>
       <p id="intro">
         Moreover, I’ve had some <b>freelancing</b> experience to pay my bills. I've
-        created websites for local businesses, such as one for <a target="_blank" href="https://www.drwaseemandrabi.com">Dr. Waseem</a>
-        and a local startup, <a target="_blank" href="https://www.fifertechnologies.com">Fifer Technologies</a>.
+        created websites for local businesses, such as one for <a
+          target="_blank"
+          href="https://www.drwaseemandrabi.com">Dr. Waseem</a
+        >
+        and a local startup, <a
+          target="_blank"
+          href="https://www.fifertechnologies.com">Fifer Technologies</a
+        >.
       </p>
       <p id="intro">
-        I’m <b>looking for opportunities</b> to grow, improve my skills, and
-        learn new things that come my way.
+        I’m <b>looking for opportunities</b> to grow, improve my skills, and learn
+        new things that come my way.
       </p>
     </section>
 
@@ -124,19 +182,50 @@ import "../global.css";
       </p>
       <p id="intro">
         With my creative background, I have solid <b>video and photo editing</b>
-        skills. Over the years, I’ve explored different software and fine-tuned
-        my abilities.
+        skills. Over the years, I’ve explored different software and fine-tuned my
+        abilities.
       </p>
       <p id="intro">
         I know a few <b>programming languages</b> (JavaScript, Python, and some C).
       </p>
       <p id="intro">
-        I have good <b>problem-solving skills</b> (considering that I learned to solve a Rubik's Cube at
-        a very young age).
+        I have good <b>problem-solving skills</b> (considering that I learned to
+        solve a Rubik's Cube at a very young age).
       </p>
     </section>
   </main>
 </div>
+
+<script>
+  function thousandsOperator(count) {
+    let rev = count.split("").reverse();
+    let grouped = [];
+
+    for (let i = 0; i < rev.length; i += 3) {
+      grouped.push(rev.slice(i, i + 3).join(""));
+    }
+
+    let formatted = grouped.join(",").split("").reverse().join("");
+
+    return formatted as string;
+  }
+  const res = await fetch("/api/stats.json");
+  const stats: {
+    hiddenSubscriberCount: boolean;
+    subscriberCount: string;
+    videoCount: string;
+    viewCount: string;
+  } = await res.json();
+
+  let subs = document.getElementById("subs");
+  let views = document.getElementById("views");
+
+  if (subs && views) {
+    subs.innerText = thousandsOperator(stats.subscriberCount);
+    views.innerText = thousandsOperator(stats.viewCount);
+  }
+
+</script>
 
 <style>
   #banner {
@@ -181,7 +270,8 @@ import "../global.css";
   }
 
   #container {
-    font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
+    font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans",
+      Arial, sans-serif;
     height: 100%;
     padding-bottom: 50px;
   }
